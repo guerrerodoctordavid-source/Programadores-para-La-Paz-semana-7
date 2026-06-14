@@ -1,0 +1,12 @@
+Al consultar GET /reportes después de crear el primer reporte, el servidor devuelve un array con el objeto JSON que se guardó en memoria. 
+
+Respuesta obtenida:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Esto demuestra que el array 'reportes' está almacenando correctamente los datos enviados por POST y que la ruta GET los devuelve en formato JSON.
